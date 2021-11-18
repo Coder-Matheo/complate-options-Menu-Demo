@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:id="@+id/action_profile"
+        app:showAsAction="always|withText"
+        />
+
+    <item android:title="Delete"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:id="@+id/action_deletes"
+        app:showAsAction="never"
+        />
+
+
+    <item android:title="Edit"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:id="@+id/action_edits"
+        app:showAsAction="ifRoom|withText"
+        />
+
+
+    <item android:title="Settings"
+        android:icon="@drawable/ic_settings"
+        android:id="@+id/action_settings"
+        app:showAsAction="never"
+        />
+
+    <item android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:id="@+id/action_searchs"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+
+</menu>
